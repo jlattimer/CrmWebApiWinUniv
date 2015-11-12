@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="CrmWebApiWinUniv.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CrmWebApiWinUniv"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="MainPage_OnLoaded">
+
+	<StackPanel x:Name="contentPanel" Margin="8,32,0,0" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<Button x:Name="inputButton" Content="Go" Click="InputButton_OnClick" />
+		<TextBlock x:Name="whoAmIOutput"/>
+		<TextBlock x:Name="retrieveOutput"/>
+		<TextBlock x:Name="createOutput"/>
+		<TextBlock x:Name="updateOutput"/>
+		<TextBlock x:Name="deleteOutput"/>
+	</StackPanel>
+</Page>
